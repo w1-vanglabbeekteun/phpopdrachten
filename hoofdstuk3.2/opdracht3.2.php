@@ -67,6 +67,15 @@
         echo("Je mag hier alle alcohol drinken");
     }
 
+    if($countryName == "Cyprus" && $currentAge >= 17)
+    {
+        echo("Je mag hier sterke en zwakke alcohol drinken.");
+    }
+    else if($countryName == "Cyprus" && $currentAge < 17)
+    {
+        echo("Hier mag je geen alcohol drinken.");
+    }
+
     else if ($countryName == "Zweden"){
         if($currentAge >= 18 && $currentAge <=19)
         {
