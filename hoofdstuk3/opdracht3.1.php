@@ -25,28 +25,29 @@
 <h2>Uitwerking van <a href="../index.php"> PHP-opdrachten</a></h2>
 <div class="box">
     <?php
-    $elf = "Elfstedentocht";
-    $alve = "Alvestêdetocht";
+    $evenement = "Elfstedentocht";
+    $fries = "Alvestêdetocht";
     $km = "200";
-    $schaats = "schaatstocht";
-    $natuur = "natuurijs";
+    $schaatstocht = "schaatstocht";
+    $natuurijs = "natuurijs";
     $kvdfes = "Koninklijke Vereniging De Friesche Elf Steden";
-    $leeuw = "Leeuwarden";
-    $fries = "Friesland";
+    $provincie = "Leeuwarden";
+    $stad = "Friesland";
     $num = "15";
     $jaar = "1909";
-    $verhaal = "De $elf (Fries: $alve) is een $km
-                kilometer lange $schaats over $natuur die wordt
-                georganiseerd door de $kvdfes. $leeuw, de hoofdstad van $fries, is start- en
-                aankomstplaats. De $elf is inmiddels $num maal
+    $verhaal = "De $evenement (Fries: $fries) is een $km
+                kilometer lange $schaatstocht over $natuurijs die wordt
+                georganiseerd door de $kvdfes. $provincie, de hoofdstad van $stad, is start- en
+                aankomstplaats. De $evenement is inmiddels $num maal
                 verreden en werd voor het eerst in $jaar gereden en wordt
                 maximaal 1 keer per winter gehouden.";
     echo ("$verhaal");
-    $verhaal2 = "De " . $elf .  " (Fries: " . $alve . ") is een " . $km . " kilometer lange " . $num . " over " . $natuur . " die wordt
-                georganiseerd door de " . $kvdfes .". " . $leeuw . ",  de hoofdstad van " . $fries . ",  is start- en
-                aankomstplaats. De " . $elf . " is inmiddels " . $num . " maal
+    $verhaal2 = "De " . $evenement .  " (Fries: " . $fries . ") is een " . $km . " kilometer lange " . $num . " over " . $natuurijs . " die wordt
+                georganiseerd door de " . $kvdfes .". " . $provincie . ",  de hoofdstad van " . $stad . ",  is start- en
+                aankomstplaats. De " . $evenement . " is inmiddels " . $num . " maal
                 verreden en werd voor het eerst in " . $jaar . " gereden en wordt
                 maximaal 1 keer per winter gehouden.";
+    echo ("$verhaal2");
     ?>
 </div>
 </body>
